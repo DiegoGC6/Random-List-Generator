@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ef744b;
+}
+
+button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
