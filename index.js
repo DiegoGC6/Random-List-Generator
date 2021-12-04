@@ -8,7 +8,7 @@ function shuffleArray(array) {
 }
 
 function getList () {
-    var list = Array(10000).fill(0).map((e,i)=>i+1)
+    var list = Array(10000).fill(1).map((e,i)=>i+1)
     shuffleArray(list)
     console.log(list)
 
